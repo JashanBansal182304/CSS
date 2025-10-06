@@ -1,0 +1,40 @@
+@font-face {
+    font-family: f1;
+    src: url(./RUSTY\ ATTACK\ DEMO\ Regular.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1672011012713-de07fc9ee8fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 40px;
+}
+
+#main h1{
+    color: white;
+    font-size: 70px;
+    font-family: f1;
+    font-weight: 80px;
+    margin: 40px;
+}
+
+#main button{
+    color: white;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+}
