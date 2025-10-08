@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #F5F5F7;
+}
+
+#nav a{
+    color: black;
+    font-size: 15px;
+    font-weight: 20px;
+    text-decoration: none;
+}
+
+#main{
+    height: 84%;
+    width: 100%;
+    background-image: url('./hero_iphone_17_pro__bknyzxfk2agi_medium_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#main h1{
+    color: white;
+    font-size: 50px;
+}
+
+#main h5{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#links {
+    padding: 10px;
+}
+
+#links button{
+    padding: 8px 10px;
+    border-radius: 14px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
