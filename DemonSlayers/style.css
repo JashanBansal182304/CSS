@@ -1,0 +1,70 @@
+@font-face {
+    font-family: demon;
+    src: url(./bloodcrow.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(black, red, black);
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 260px;
+    width: 240px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 15px 8px rgba(37, 36, 36, 0.582);
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.bottom{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: -30%;
+    padding: 8px;
+    background: linear-gradient(transparent, black);
+    transition: all ease 0.5s;
+}
+
+.card:hover .bottom{
+    bottom: 0;
+}
+
+.bottom h3{
+    color: red;
+    font-family: demon;
+}
+
+.bottom i{
+    color: red;
+}
